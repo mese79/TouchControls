@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="100"
+   height="100"
+   viewBox="0 0 100.00671 99.941736"
+   id="svg4421"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="nav.svg"
+   inkscape:export-filename="/home/mehdi/Projects/3D/TouchControls/tmp/Game Controller/nav2.png"
+   inkscape:export-xdpi="90.000008"
+   inkscape:export-ydpi="90.000008">
+  <defs
+     id="defs4423" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#1e1e1e"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="5.6002857"
+     inkscape:cx="38.041936"
+     inkscape:cy="47.795251"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     units="px"
+     inkscape:window-width="1440"
+     inkscape:window-height="836"
+     inkscape:window-x="0"
+     inkscape:window-y="22"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata4426">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Layer 2"
+     style="display:none"
+     sodipodi:insensitive="true"
+     transform="translate(0,20.001341)">
+    <path
+       inkscape:connector-curvature="0"
+       style="fill:none;fill-rule:evenodd;stroke:#dae3e8;stroke-width:1.70011401;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.47058824"
+       d="m 79.504579,39.976693 c 0,21.81628 -17.68559,39.50187 -39.501869,39.50187 -21.81628,0 -39.50186994,-17.68559 -39.50186994,-39.50187 0,-21.81628 17.68558994,-39.50187022 39.50186994,-39.50187222 21.816279,2e-6 39.501869,17.68559222 39.501869,39.50187222 z"
+       id="path4155-1" />
+    <path
+       inkscape:connector-curvature="0"
+       style="fill:none;fill-rule:evenodd;stroke:#dae3e8;stroke-width:3.00020123;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.47058824"
+       d="m 2.22241,28.643073 c 0,0 18.92613,0.23875 21.30767,-3.46207 2.38157,-3.70079 4.7631,-7.12492 3.57235,-21.8087882 -0.25521,-0.1874729 12.30084,-5.6174359 25.00627,-0.3059929 0,0 -1.190781,13.1612311 1.19077,18.5333711 3.57232,5.37213 3.888,6.20781 24.131189,7.04348 0,0 3.979321,12.535 -0.783779,24.59248 0,0 -6.67657,-0.71628 -16.20275,1.07444 -10.71699,1.790719 -8.33543,20.89167 -8.33543,22.682389 0,0 -10.71698,5.014 -25.00627,0 0,0 2.38153,-15.87768 -3.57235,-20.89167 0,0 -1.19077,-3.223299 -20.2431699,-2.984539 0,0 -4.6368301,-9.19233 -1.0645001,-24.4731 z"
+       id="path3334-6" />
+  </g>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-336.9,-72.888496)"
+     style="display:inline">
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#dae3e8;stroke-width:3.05809665;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.39215686"
+       d="m 340.10595,108.85954 c 0,0 23.48624,0.29497 26.44168,-4.27765 2.95545,-4.57264 5.9107,-8.803504 4.43303,-26.946623 -0.31664,-0.231635 15.26474,-6.940813 31.03141,-0.378074 0,0 -1.47766,16.261819 1.47771,22.899507 4.43306,6.63779 4.82477,7.6703 29.94551,8.70284 0,0 4.9381,15.4881 -0.97265,30.38611 0,0 -8.28528,-0.88502 -20.1067,1.3276 -13.29917,2.21257 -10.34387,25.81334 -10.34387,28.02591 0,0 -13.29914,6.1953 -31.03141,0 0,0 2.9554,-19.61818 -4.43303,-25.81334 0,0 -1.47771,-3.9827 -25.12072,-3.68772 0,0 -5.75399,-11.35785 -1.32096,-30.23856 z"
+       id="path3334"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>
