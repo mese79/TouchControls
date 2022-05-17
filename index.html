@@ -1,32 +1,39 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-	<meta name="HandheldFriendly" content="true" />
-	
-	<title>Touch pad control test</title>
-	
-	<link rel="stylesheet" href="./css/touch-pad.css">
-	<link rel="stylesheet" href="./css/main.css">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="HandheldFriendly" content="true" />
+    
+    <title>TouchControls Test</title>
+    
+    <link rel="stylesheet" href="css/touch-pad.css">
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-	<div id="container">
-		<h3>Touch Controls Test: </h3>
-		<div id="container3d"></div>
-	</div>
+    <div id="container">
+        <h3>TouchControls Test : </h3>
+        <div id="container3d"></div>
+    </div>
 
+    <!-- Import maps polyfill -->
+    <!-- Remove this when import maps will be widely supported -->
+    <script async src="js/libs/es-module-shims.js"></script>
 
-	<script type="text/javascript" src="./libs/jquery-2.1.4.js"></script>
-	<script type="text/javascript" src="./libs/threejs/three.js"></script>
-	<script type="text/javascript" src="./libs/threejs/Detector.js"></script>
-	<script type="text/javascript" src="./libs/threejs/stats.min.js"></script>
-	<script type="text/javascript" src="./libs/threejs/SceneLoader.js"></script>
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "./js/libs/threejs/three.module.js"
+            }
+        }
+    </script>
 
-	<script type="text/javascript" src="./js/movement-pad.js"></script>
-	<script type="text/javascript" src="./js/rotation-pad.js"></script>
-	<script type="text/javascript" src="./js/touch-controls.js"></script>
-	<script type="text/javascript" src="./js/example.js"></script>
+    <!-- <script type="module" src="js/libs/threejs/three.module.js"></script> -->
+    <!-- <script type="module" src="js/MovementPad.js"></script>
+    <script type="module" src="js/RotationPad.js"></script> -->
+    <script type="module" src="js/TouchControls.js"></script>
+    <script type="module" src="js/example.js"></script>
+
 </body>
 </html>
