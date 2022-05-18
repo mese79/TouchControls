@@ -70,8 +70,8 @@ class MovementPad {
             this.mouseDown = true
             this.handle.style.opacity = 1.0
             this.update(
-                event.originalEvent.targetTouches[0].pageX,
-                event.originalEvent.targetTouches[0].pageY
+                event.targetTouches[0].pageX,
+                event.targetTouches[0].pageY
             )
         })
 
@@ -85,7 +85,7 @@ class MovementPad {
         document.addEventListener('touchmove', (event) => {
             if (!this.mouseDown)
                 return
-            this.update(event.originalEvent.touches[0].pageX, event.originalEvent.touches[0].pageY)
+            this.update(event.touches[0].pageX, event.touches[0].pageY)
         })
 
         this.resetHandlePosition()
