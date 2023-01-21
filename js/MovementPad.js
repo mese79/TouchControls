@@ -24,28 +24,12 @@ class MovementPad {
         this.padElement.append(this.region)
         this.container.append(this.padElement)
 
-        // Aligning pad position:
+        // Aligning pad:
         let canvas = container.getElementsByTagName('canvas')[0]
-        this.padElement.style.top = canvas.height + container.getBoundingClientRect().top
-                                    - this.region.offsetHeight - 10 + 'px'
-        this.padElement.style.left = '20px'
+        this.alignAndConfigPad(canvas)
 
-        this.regionData.width = this.region.offsetWidth
-        this.regionData.height = this.region.offsetHeight
-        this.regionData.position = {
-            top: this.region.offsetTop,
-            left: this.region.offsetLeft
-        }
-        this.regionData.offset = utils.getOffset(this.region)
-        this.regionData.radius = this.regionData.width / 2
-        this.regionData.centerX = this.regionData.position.left + this.regionData.radius
-        this.regionData.centerY = this.regionData.position.top + this.regionData.radius
-
-        this.handleData.width = this.handle.offsetWidth
-        this.handleData.height = this.handle.offsetHeight
-        this.handleData.radius = this.handleData.width / 2
-
-        this.regionData.radius = this.regionData.width / 2 - this.handleData.radius
+        // events
+        window.addEventListener('resize', () => {this.alignAndConfigPad(canvas)})
 
         // Mouse events:
         this.region.addEventListener('mousedown', (event) => {
@@ -89,6 +73,29 @@ class MovementPad {
         })
 
         this.resetHandlePosition()
+    }
+
+    alignAndConfigPad(canvas) {
+        this.padElement.style.top = canvas.height + this.container.getBoundingClientRect().top
+                                    - this.region.offsetHeight - 10 + 'px'
+        this.padElement.style.left = '20px'
+
+        this.regionData.width = this.region.offsetWidth
+        this.regionData.height = this.region.offsetHeight
+        this.regionData.position = {
+            top: this.region.offsetTop,
+            left: this.region.offsetLeft
+        }
+        this.regionData.offset = utils.getOffset(this.region)
+        this.regionData.radius = this.regionData.width / 2
+        this.regionData.centerX = this.regionData.position.left + this.regionData.radius
+        this.regionData.centerY = this.regionData.position.top + this.regionData.radius
+
+        this.handleData.width = this.handle.offsetWidth
+        this.handleData.height = this.handle.offsetHeight
+        this.handleData.radius = this.handleData.width / 2
+
+        this.regionData.radius = this.regionData.width / 2 - this.handleData.radius
     }
 
     update(pageX, pageY) {
